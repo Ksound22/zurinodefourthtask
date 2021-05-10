@@ -1,30 +1,65 @@
-**FEATURES**
+# Zuri fourth task
 
-- Store owner can:
-  - Create books
-  - Fetch books
-  - Update books
-  - Delete books
-  - Search for books
+A brief description of what this project does and who it's for
 
-**TODO**
 
-- Set up mongoose
-- Create schema \* Create routes
+## API Reference
 
-Book \
-author \
-category \
-purchaseCount \
-imageUrl \
-description
 
-Folder structure to refactor to
-src
+#### Creates a footballer
 
-- controllers => contains the request and response functions
-- database => database setup and connection
-- models => database schema files
-- routes => app routes
-- index.js =. entry file
-- utils
+```http
+  POST /https://fierce-cliffs-93522.herokuapp.com/footballer
+```
+
+#### Gets all footballers
+
+```http
+  GET /https://fierce-cliffs-93522.herokuapp.com/footballers
+```
+
+#### Gets single footballer
+
+```http
+  GET /https://fierce-cliffs-93522.herokuapp.com/footballer/id
+```
+
+#### Update single footballer
+
+```http
+  PUT /https://fierce-cliffs-93522.herokuapp.com/footballer/id
+```
+
+#### Delete single footballer
+
+```http
+  DELETE /https://fierce-cliffs-93522.herokuapp.com/footballer/id
+```
+
+
+  
+## Author
+
+- [@ksound22](https://www.github.com/ksound22)
+
+  
+## Deployment
+
+This app was deployed to
+
+```bash
+  https://fierce-cliffs-93522.herokuapp.com/
+```
+
+  
+## Tech Stack
+
+
+**Server:** Node, Express
+
+  
+
+
+ Task created by [@Buka](https://github.com/buka4rill),
+ Done by [@ksound22](https://github.com/ksound22),
+ Readme generated via [@katherinecodes](https://github.com/katherinepeterson) [Readme product](https://https://readme.so/).

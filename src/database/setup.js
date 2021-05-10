@@ -1,8 +1,7 @@
 // Connect mongoose
 
 const mongoose = require("mongoose");
-const connectionString =
-  "mongodb+srv://chrisKay:ksound22@cluster0.qwg9w.mongodb.net/footballer?retryWrites=true&w=majority";
+const connectionString = `${process.env.MONGO_URI}`;
 
 module.exports = function () {
   mongoose.connect(
